@@ -73,14 +73,6 @@ public class ExercizeAdapter {
 			}
 			//newDesc.replaceAll("<[/?][A-Za-z+]>", "");
 			newDesc = newDesc.replaceAll("<[^>]*>", "");
-			newDesc = newDesc.replaceAll("ü", "ue");
-			newDesc = newDesc.replaceAll("ö", "oe");
-			newDesc = newDesc.replaceAll("ä", "ae");
-			newDesc = newDesc.replaceAll("Ü", "Ue");
-			newDesc = newDesc.replaceAll("Ö", "Oe");
-			newDesc = newDesc.replaceAll("Ä", "Ae");
-			newDesc = newDesc.replaceAll("ß", "ss");
-			newDesc = newDesc.replaceAll("å", "ae");
 			System.out.println(newDesc);
 			allExercizesArray.put(newDesc);
 		}
